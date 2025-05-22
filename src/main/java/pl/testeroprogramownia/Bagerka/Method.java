@@ -1,7 +1,9 @@
-package pl.testeroprogramownia.Forexercises;
+package pl.testeroprogramownia.Bagerka;
 
-public class PrimeNumbers {
+public class Method {
     public static void main(String[] args) {
+
+    }{
         for (int i = 2; i <= 100; i++) {
             boolean czyPierwsza = true;
 
@@ -18,3 +20,6 @@ public class PrimeNumbers {
         }
     }
 }
+
+
+

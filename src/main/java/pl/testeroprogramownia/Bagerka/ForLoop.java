@@ -1,4 +1,4 @@
-package pl.testeroprogramownia.Forexercises;
+package pl.testeroprogramownia.Bagerka;
 
 import java.util.Scanner;
 

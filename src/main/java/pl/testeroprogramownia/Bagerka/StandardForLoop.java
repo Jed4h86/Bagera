@@ -1,4 +1,4 @@
-package pl.testeroprogramownia.Forexercises;
+package pl.testeroprogramownia.Bagerka;
 
 public class StandardForLoop {
     public static void main(String[] args) {
