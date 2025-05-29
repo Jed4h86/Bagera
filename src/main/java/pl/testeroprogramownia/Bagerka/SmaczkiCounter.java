@@ -8,12 +8,17 @@ public class SmaczkiCounter {
         Random random = new Random();
         int smaczki = random.nextInt(10) + 1;
 
-        for (int i = 0; i<smaczki; i++){
+        int i;
+        for (i = 0; i < smaczki; i++) {
 
-            System.out.println("Zjadłam " +i + " smaczków!");
         }
-        System.out.println("Najadłam się!");
+        //żeby pokazać tylko ostatnią liczbę, należy wyrzucić print poza nawias klamrowy
+        System.out.println("Zjadłam " + i + " smaczków!");
+        if (i > 7) {
+            System.out.println("Najadłam się!");
 
-
+        }else{
+            System.out.println("Jestem głodna!");
+        }
     }
 }

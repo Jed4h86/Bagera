@@ -1,7 +1,10 @@
 package pl.testeroprogramownia.Bagerka;
 
-public class mruczando {
+import java.util.Random;
+
+public class Mruczando {
     public static void miau() {
+
         String word = "miau";
         int count = 0;
 
@@ -10,19 +13,20 @@ public class mruczando {
             count++;                  // zwiększamy licznik
         }
 
-        System.out.println("Liczba znaków w wyrazie: " + count);
+        System.out.println("Liczba znaków w wyrazie: "+word +" "+ count);
 
 
     }
     public static void miau2() {
-    String word = "programowanie";
+    String word = "miauuuuuuu";
     int count = 0;
 
 for (int i = 0; i < word.length(); i++) {
-        char c = word.charAt(i);  // pobieramy znak na pozycji i
-        count++;                  // zwiększamy licznik
-    }
+    count++;
+}
+        System.out.println("Liczba znaków w wyrazie: " + count);
+}
 
-System.out.println("Liczba znaków w wyrazie: " + count);
+
 }
-}
+

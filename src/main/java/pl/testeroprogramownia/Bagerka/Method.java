@@ -3,7 +3,6 @@ package pl.testeroprogramownia.Bagerka;
 public class Method {
     public static void main(String[] args) {
 
-    }{
         for (int i = 2; i <= 100; i++) {
             boolean czyPierwsza = true;
 
