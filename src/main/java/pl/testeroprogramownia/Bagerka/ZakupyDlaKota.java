@@ -1,5 +1,8 @@
 package pl.testeroprogramownia.Bagerka;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ZakupyDlaKota {
     public static void listaZakupów() {
 
@@ -16,7 +19,23 @@ public class ZakupyDlaKota {
 
         }
 
+        }
+    public static void listaZakupów2(){
+        List<String> zakupyDlaBagery = new ArrayList<>();
+        zakupyDlaBagery.add("Sucha karma");
+        zakupyDlaBagery.add("Mokra karma");
+        zakupyDlaBagery.add("Żwirek");
+        zakupyDlaBagery.add("Zabawka");
+
+        System.out.println(zakupyDlaBagery.get(1));
+        System.out.println(zakupyDlaBagery.size());
+        for(String elements:zakupyDlaBagery){
+            System.out.println(elements);
+        }
+
+
     }
+
 
 }
 
