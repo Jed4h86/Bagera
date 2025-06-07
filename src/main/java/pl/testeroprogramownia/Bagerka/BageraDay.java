@@ -9,7 +9,7 @@ public class BageraDay {
         int activities = random.nextInt(7);
         System.out.println("Co będę dziś robić?");
 
-        switch (3){
+        switch (activities){
 
             case 1:
                 System.out.println("Gryźć pańcie");
